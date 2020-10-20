@@ -35,7 +35,7 @@ var possibleID=0;
       Password = Player[k].Password;
       ID = Player[k].ID;
       console.log(ID,Name,Password);
-      //Wrong way of checking ID pero try lang
+      //Wrong way of checking ID (may masmaganda at sure na walang pareho) pero try lang
       while(possibleID ==Player[k].ID){
             possibleID = possibleID +1;
         }
